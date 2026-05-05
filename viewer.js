@@ -62,7 +62,7 @@ const manuals = [
     {
 		id: 10,
 		pdfs: [
-			{ path: "assets/pdfs/10-silo.pdf", title: "Manual de Montagem d0 Carregamento por Silo" }
+			{ path: "assets/pdfs/10-silo.pdf", title: "Manual de Montagem do Carregamento por Silo" }
         ]
     }   
     // 👉 Adicione aqui todos os outros IDs,
