@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficina Robótica Pelotização Vale Vitória - Manual de Montagens</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#f39c12">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>navigator.serviceWorker.register("sw.js")</script> 
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Oficina Robótica Pelotização Vale Vitória</h1>
+            <h2>Manuais de Montagens</h2>
+        </div>
+        <div>
+            <a href="https://yxzrobotica.com.br/portal.html" class="botao-voltar">
+                Sair / Voltar ao Portal
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="manuals-grid" class="manuals-grid">
+            <!-- Os cards serão inseridos aqui via JavaScript -->
+            <div class="loading">Carregando montagens...</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2015 Oficina Robótica Pelotização Vale Vitória - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js')
+                    .then(reg => console.log('Service Worker registrado!', reg))
+                    .catch(err => console.log('Erro ao registrar Service Worker', err));
+            });
+        }
+    </script>
+</body>
+</html>

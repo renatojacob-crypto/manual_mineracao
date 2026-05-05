@@ -1,0 +1,41 @@
+{
+  "name": "Oficina Robótica Pelotização",
+  "short_name": "Robótica Pelotização",
+  "description": "Manual de Montagens da Oficina de Robótica de Pelotização",
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "background_color": "#0f172a",
+  "theme_color": "#f39c12",
+  "icons": [
+    {
+      "src": "assets/images/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/images/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/images/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "dir": "auto",
+  "lang": "pt",
+  "orientation": "any",
+  "categories": [
+    "education"
+  ]
+}
