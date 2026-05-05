@@ -1,13 +1,14 @@
 const manuals = [
-    { id: 1, name: "Estrada de Ferro Vitória a Minas e o Trem", image: "assets/images/01_trem.png", pdfs: ["assets/pdfs/01_aspersor.pdf"] },
-    { id: 2, name: "Virador de Vagões", image: "assets/images/02_virador.png", pdfs: ["assets/pdfs/02_virador.pdf"] },
-    { id: 3, name: "Moagem", image: "assets/images/03_moinho.png", pdfs: ["assets/pdfs/03_moinho.pdf"] },
-    { id: 4, name: "Homogeneização", image: "assets/images/04_tanque.png", pdfs: ["assets/pdfs/04_tanque.pdf"] },
-    { id: 5, name: "Prensa de Rolos", image: "assets/images/05_prensa.png", pdfs: ["assets/pdfs/05_prensa.pdf"] },
-    { id: 6, name: "Adição de Aglomerantes", image: "assets/images/06_aglomerantes.png", pdfs: ["assets/pdfs/06_aglomerantes.pdf"] },
-    { id: 7, name: "Pelotização", image: "assets/images/07_pelotamento.png", pdfs: ["assets/pdfs/07_pelotamento.pdf"] },
-    { id: 8, name: "Peneiramento", image: "assets/images/08_peneiramento.png", pdfs: ["assets/pdfs/08_peneiramento.pdf"] },
-    { id: 9, name: "Carregamento de Navios", image: "assets/images/09_carregador.png", pdfs: ["assets/pdfs/09_carregador.pdf"] },
+    { id: 1, name: "Perfuratriz", image: "assets/images/perfuratriz_n.jpeg", pdfs: ["assets/pdfs/01-perfuratriz.pdf"] },
+    { id: 2, name: "Pá Carregadeira", image: "assets/images/pa_carregadeira.jpeg", pdfs: ["assets/pdfs/02-pa_carregadora.pdf"] },
+    { id: 3, name: "Caminhão Fora de Estrada", image: "assets/images/foradestrada.jpeg", pdfs: ["assets/pdfs/03-caminhao_fora_estrada.pdf"] },
+    { id: 4, name: "Motoniveladora", image: "assets/images/motoniveladora.jpeg", pdfs: ["assets/pdfs/04-motoniveladora.pdf"] },
+    { id: 5, name: "Caminhão Tanque", image: "assets/images/caminhao_tanque.png", pdfs: ["assets/pdfs/05-caminhao_tanque.pdf"] },
+    { id: 6, name: "Trator de Esteira", image: "assets/images/tratordeesteira_n.jpeg", pdfs: ["assets/pdfs/06-trator_esteira.pdf"] },
+    { id: 7, name: "Britador", image: "assets/images/britador.png", pdfs: ["assets/pdfs/07-britador.pdf"] },
+    { id: 8, name: "Peneiras", image: "assets/images/peneiramento_eslásticos.jpeg", pdfs: ["assets/pdfs/08-peneira.pdf"] },
+    { id: 9, name: "Correias Classificadoras", image: "assets/images/separadormagnético.jpeg", pdfs: ["assets/pdfs/09-correia_transportadora.pdf"] },
+    { id: 10, name: "Carregamento por Silo", image: "assets/images/silo.png", pdfs: ["assets/pdfs/10-silo.pdf"] },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {

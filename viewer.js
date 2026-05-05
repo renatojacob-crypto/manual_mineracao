@@ -8,60 +8,64 @@ const manuals = [
 	{
 		id: 1, 
 		pdfs: [
-			{ path: "assets/pdfs/01_trem.pdf", title: "Manual de Montagem do Trem de Carga" },
-			{ path: "assets/pdfs/01_aspersor.pdf", title: "Manual de Montagem do Aspersor de Polímeros" }
+			{ path: "assets/pdfs/01-perfuratriz.pdf", title: "Manual de Montagem da Perfuratriz" }
 		]
 	},
 	{
 		id: 2,
 		pdfs: [
-			{ path: "assets/pdfs/02_virador.pdf", title: "Manual de Montagem do Virador de Vagões"  }
+			{ path: "assets/pdfs/02-pa_carregadora.pdf", title: "Manual de Montagem da Pá Carregadeira"  }
 		]
 	},
 	{
 		id: 3,
 		pdfs: [
-			{ path: "assets/pdfs/03_moinho.pdf", title: "Manual de Montagem do Moinho de Bolas" }
+			{ path: "assets/pdfs/03-caminhao_fora_estrada.pdf", title: "Manual de Montagem do Caminhão Fora de Estrada" }
 		]
 	},
 	{
 		id: 4,
 		pdfs: [
-			{ path: "assets/pdfs/04_tanque.pdf", title: "Manual de Montagem do Tanque de Homogeinização" }
+			{ path: "assets/pdfs/04-motoniveladora.pdf", title: "Manual de Montagem da Motoniveladora" }
 		]
 	},
 	{
 		id: 5,
 		pdfs: [
-			{ path: "assets/pdfs/05_prensa.pdf", title: "Manual de Montagem da Prensa de Rolos" }
+			{ path: "assets/pdfs/05-caminhao_tanque.pdf", title: "Manual de Montagem do Caminhão Tanque" }
 		]
 	},
 	{
 		id: 6,
 		pdfs: [
-			{ path: "assets/pdfs/06_aglomerantes.pdf", title: "Manual de Montagem da Adição de Aglomerantes" }
+			{ path: "assets/pdfs/06-trator_esteira.pdf", title: "Manual de Montagem do Trator de Esteira" }
 		]
 	},
 	{
 		id: 7,
 		pdfs: [
-			{ path: "assets/pdfs/07_pelotamento.pdf", title: "Manual de Montagem do Disco de Pelotamento" }
+			{ path: "assets/pdfs/07-britador.pdf", title: "Manual de Montagem do Britador" }
 		]
 	},
 	{
 		id: 8,
 		pdfs: [
-			{ path: "assets/pdfs/08_peneiramento.pdf", title: "Manual de Montagem do Peneiramento" }
+			{ path: "assets/pdfs/08-peneira.pdf", title: "Manual de Montagem do Peneiramento" }
 		]
 	},
     {
 		id: 9,
 		pdfs: [
-			{ path: "assets/pdfs/09_carregador.pdf", title: "Manual de Montagem do Carregador de Navios" }
+			{ path: "assets/pdfs/09-correia_transportadora.pdf", title: "Manual de Montagem da Correia com Separador Magnético" }
+        ]
+    },
+    {
+		id: 10,
+		pdfs: [
+			{ path: "assets/pdfs/10-silo.pdf", title: "Manual de Montagem d0 Carregamento por Silo" }
         ]
     }   
     // 👉 Adicione aqui todos os outros IDs,
-    // mesmo que tenham apenas 1 PDF
 ]
 
 const container = document.getElementById("pdf-container");
