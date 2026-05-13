@@ -5,7 +5,7 @@ const manuals = [
     { id: 4, name: "Motoniveladora", image: "assets/images/motoniveladora.jpeg", pdfs: ["assets/pdfs/04-motoniveladora.pdf"] },
     { id: 5, name: "Caminhão Tanque", image: "assets/images/caminhao_tanque.png", pdfs: ["assets/pdfs/05-caminhao_tanque.pdf"] },
     { id: 6, name: "Trator de Esteira", image: "assets/images/tratordeesteira_n.jpeg", pdfs: ["assets/pdfs/06-trator_esteira.pdf"] },
-    { id: 7, name: "Britador", image: "assets/images/britador.png", pdfs: ["assets/pdfs/07-britador.pdf"] },
+    { id: 7, name: "Britador", image: "assets/images/britador.png", pdfs: ["assets/pdfs/07-britador.pdf", "assets/pdfs/07-correia_britador.pdf"] },
     { id: 8, name: "Peneiras", image: "assets/images/peneiramento_eslásticos.jpeg", pdfs: ["assets/pdfs/08-peneira.pdf"] },
     { id: 9, name: "Correias Classificadoras", image: "assets/images/separadormagnético.jpeg", pdfs: ["assets/pdfs/09-correia_transportadora.pdf"] },
     { id: 10, name: "Carregamento por Silo", image: "assets/images/silo.png", pdfs: ["assets/pdfs/10-silo.pdf"] },

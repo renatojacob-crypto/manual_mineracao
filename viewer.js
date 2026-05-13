@@ -44,7 +44,8 @@ const manuals = [
 	{
 		id: 7,
 		pdfs: [
-			{ path: "assets/pdfs/07-britador.pdf", title: "Manual de Montagem do Britador" }
+			{ path: "assets/pdfs/07-britador.pdf", title: "Manual de Montagem do Britador" },
+            { path: "assets/pdfs/07-correia_britador.pdf", title: "Manual de Montagem da Correia do Britador"}
 		]
 	},
 	{
